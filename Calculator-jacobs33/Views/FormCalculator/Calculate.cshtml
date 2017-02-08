@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Results";
+}
+
+<h2>Form Calculator Results</h2>
+
+@if (ViewBag.Error != null)
+{
+    <h3>Error</h3>
+    <p>@ViewBag.Error</p>
+}
+else
+{
+    <h3>Result</h3>
+    <p>@ViewBag.Result</p>
+}
+
+<br />
+<br />
+
+<h4><a href="../FormCalculator/">Return To Calculator</a></h4>
+
